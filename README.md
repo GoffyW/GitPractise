@@ -136,4 +136,11 @@ git rm --cached -r useless
 git commit -m "remove directory from remote repository"
 git push
 ```
-
+##### 合并分支代码
+```
+git  checkout master # 切换到需要合并的分支上面（切换到Maste）
+git pull origin master #多人协作下最好进行Pull
+git  merge dev #dev的代码合并到当前分支
+git status
+git push origin master
+```
